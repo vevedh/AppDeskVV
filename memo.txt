@@ -1,0 +1,21 @@
+npm i -g gulp slush slush-wean
+slush wean
+gulp run
+
+///
+app.js : Express server configuration
+gulpFile.js : Task runner
+index.html : Application main page/splash screen
+public folder : static resources (client side – our app will be developed here)
+routes : Express routes
+view : Initial view for our Angularjs application, served by Express
+///
+npm install bower -g
+bower init
+//// a la racine 
+.bowerrc
+{
+	"directory" : "public/libs"
+}
+/////
+bower install --save  ionic
